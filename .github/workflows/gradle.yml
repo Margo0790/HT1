@@ -4,7 +4,7 @@ on:
  push:
   branches: ["master", "JUnit4", "testNG"]
  pull_request:
-    branches: ["master", "JUnit4", "testNG"]
+  branches: ["master", "JUnit4", "testNG"]
 
 jobs:
   build:
