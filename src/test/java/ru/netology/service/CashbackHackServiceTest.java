@@ -8,6 +8,7 @@ public class CashbackHackServiceTest {
         int actual = service.remain(900);
         org.testng.Assert.assertEquals(actual, expected);
     }
+
     @org.testng.annotations.Test
     public void shouldCalculateAmountMoreBoundary(){
         CashbackHackService service = new CashbackHackService();
